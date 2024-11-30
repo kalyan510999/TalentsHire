@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e8f1f5;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.navbar-button {
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.navbar-button:hover {
+  background-color: #007acc;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: white;
+}
+
+.hero-content {
+  max-width: 50%;
+  text-align: left;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #003366;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #666;
+  margin: 20px 0;
+}
+
+.cta-button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #005f99;
+}
+
+.hero-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Wave Section */
+.wave-section {
+  position: relative;
+  background: linear-gradient(135deg, #007acc, #00aaff);
+  color: white;
+  padding: 50px 20px;
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+}
+
+.wave-content {
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wave-content h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.wave-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.play-button {
+  background-color: white;
+  color: #007acc;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.play-button:hover {
+  background-color: #e0f7ff;
+}
